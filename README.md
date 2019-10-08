@@ -9,4 +9,8 @@ This is 3 step process. Note down all the details.
 <img src="./pythonDetails.png" />
 3. Dont forget to change the security settings inside security -> Connection security -> Make TLS OPtional
 <img src="./TLS.png" />
+NOTE: IF YOU ARE USING THE REST API FOR IOT TO SEE THE DATA (DATA WILL BE ENCRYPTED WITH THE BASE 64 SO FIRST WE NEED TO DECRYPT THAT DATA THEN IT WILL BECOME NORMAL STRING).
+REST URL: https://ORGID.internetofthings.ibmcloud.com/api/v0002/device/types/DEVICE_TYPE/devices/DEVICE_ID/events/event_id
+event_id = iot-2/evt/test/fmt/json (in this test is a topic and test is a event_id)
+
 Enjoy the Cloud
