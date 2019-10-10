@@ -16,3 +16,5 @@ This project is a chatbot which is used as a car assistant.
 * IBM Function code (Webhook fullfilment) : This folder contains code for the IBM Functions for the fullfillment (HTTP (GET, POST) CALLS) like jokes, facts, temprature details from IBM IOT. <br>
 * Other Required files : This contains Authentication related details for Cloud functions and others.
 <h3>Have a look at other Folders for full information about each and every component and how it could be used.
+  <h2>Demo : </h2>
+  https://assistant-chat-eu-gb.watsonplatform.net/web/public/d1d1c892-7ed5-4f0b-bf80-31f3ad5798c4
