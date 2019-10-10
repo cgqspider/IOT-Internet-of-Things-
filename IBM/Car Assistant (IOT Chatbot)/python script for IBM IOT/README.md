@@ -9,9 +9,9 @@ For more details: https://github.com/cgqspider/IOT-Internet-of-Things-
  
 <br />
 <h3>--------------------------------------------------------------</h3>
-<h2>NOTE:From IBM IOT security -> connection security -> TLS Optional.</h2>
+<p>NOTE:From IBM IOT security -> connection security -> TLS Optional.</p>
 <h2>From APPS create api : note down api key and auth token which will be used as username and password for Cloud function for HTTP request to IBM IOT. (BASIC AUTHENTICATION)</h2>
 
-<h3>--------------------------------------------------------------</h3> 
+<p>--------------------------------------------------------------</p> 
 <h3>Ref :</h3>
 https://stackoverflow.com/questions/46664862/python-paho-mqtt-og-ibm-watson-iot
