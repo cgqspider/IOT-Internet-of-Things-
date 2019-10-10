@@ -1,29 +1,33 @@
 
-Basic Authentication with URL:
-Inside IOT Cloud Function create a APP inside that api key and authentication token: Note that:
-Username = apikey
-Password = Authentication token
-https://USERNAME:PASSWORD@openwhisk.ng.bluemix.net/api/v1/namespaces.
-Basic Authentication using Node.js Request api
-Tutorial: https://www.haykranen.nl/2011/06/21/basic-http-authentication-in-node-js-using-the-request-module/
-HOW TO MAKE WEBPACK:
-Dependencies
-npm install –g webpack
-npm install webpack --save
+<h1>Basic Authentication with URL:</h1>
+Inside IOT Cloud Function create a APP inside that api key and authentication token: Note that: <br>
+Username = apikey<br>
+Password = Authentication token<br>
+https://USERNAME:PASSWORD@openwhisk.ng.bluemix.net/api/v1/namespaces. <br>
+Basic Authentication using Node.js Request api<br>
+Tutorial: https://www.haykranen.nl/2011/06/21/basic-http-authentication-in-node-js-using-the-request-module/<br>
+<h1>HOW TO MAKE WEBPACK:</h1>
+<h2>Dependencies</h2>
+npm install –g webpack<br>
+npm install webpack --save<br>
 
-webpack.js
-var path = require('path');module.exports = {  entry: './index.js',  output: {    path: path.resolve(__dirname, 'dist'),    filename: 'bundle.js'  },  target: 'node'};
+<h3>webpack.js</h3>
+var path = require('path'); <br>
+module.exports = {  entry: './index.js', <br>
+  output: {  <br>
+  path: path.resolve(__dirname, 'dist'), <br>
+    filename: 'bundle.js'  },  target: 'node'};<br>
 
-add build key in the scripts of package.json:
-"scripts": {   "build": "webpack --config webpack.config.js" }
+<h2>add build key in the scripts of package.json:</h2>
+"scripts": {   "build": "webpack --config webpack.config.js" }<br>
  
-Build:
-npm run build
+<h3>Build:</h3>
+npm run build<br>
  
  
-Deploy this function to IBM FUNCTIONS:
+<h1>Deploy this function to IBM FUNCTIONS:</h1>
  
-ibmcloud wsk action update GrenerateJWT dist/bundle.js --kind nodejs:8
+ibmcloud wsk action update GrenerateJWT dist/bundle.js --kind nodejs:8<br>
  
 Tutorial for IBM Cloud Functions: https://medium.com/@yunyuenchan/how-to-use-npm-module-in-ibm-cloud-functions-a0c76154e85
 
