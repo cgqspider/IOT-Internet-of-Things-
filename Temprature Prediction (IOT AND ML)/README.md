@@ -5,6 +5,8 @@ This is 3 step process for implementing the IOT and machine learning together. T
  * Part 2 : Connecting Nodemcu to the Spread sheet for data sending to the cloud.<br>
 * Part 3: Use that data to Train machine learning using random forest algorithm.<br />
 
+<h3>USE Mybinder For Jupyter Notebook</h3>
+https://mybinder.org/
 
 <h2>Ref:</h2>
 https://www.youtube.com/watch?v=O-jIsMwccqg&list=PLPk6Wn69oEjLDYucRKTZX8UAwFEtzpcrZ
