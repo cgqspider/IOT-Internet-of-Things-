@@ -1,0 +1,17 @@
+import math, statistics
+hist_data=[1,2,3,4,5,6,7,8,9,10]
+Mn=statistics.mean(hist_data)
+frame_size=3
+factor=2
+print("History Data"+str(hist_data))
+print("Mean:"+str(Mn))
+Variance=0   
+for data in hist_data :       
+    Variance += math.pow((data-Mn),2)
+print("Variance:" + str(Variance))
+
+Zn = factor * math.sqrt(Variance / frame_size)   
+High_bound = hist_data[frame_size-1]+Zn   
+Low_Bound = hist_data[frame_size-1]-Zn   
+print("HB"+str(High_bound))
+print("LB"+str(Low_Bound))
