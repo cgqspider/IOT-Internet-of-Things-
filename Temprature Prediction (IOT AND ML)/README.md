@@ -8,6 +8,12 @@ This is 3 step process for implementing the IOT and machine learning together. T
 <h3>USE Mybinder For Jupyter Notebook</h3>
 https://mybinder.org/
 
+
+# FUTURE: 
+This project can be enhanced to make more power Project using the anomly detection. Just use this historic data to find the anomly detection using z score and can be used for finding the irrelavant behavior of any kind of machine.<br>
+Watch this:https://www.hackster.io/gunjan4699/temperature-sensor-using-lm35-sensor-and-bolt-wifi-module-af14f2#code
+<br>https://youtu.be/xk_hnI2proQ
+
 <h2>Ref:</h2>
 https://www.youtube.com/watch?v=O-jIsMwccqg&list=PLPk6Wn69oEjLDYucRKTZX8UAwFEtzpcrZ
 <br/>
