@@ -12,7 +12,10 @@ https://mybinder.org/
 # FUTURE: 
 This project can be enhanced to make more power Project using the anomly detection. Just use this historic data to find the anomly detection using z score and can be used for finding the irrelavant behavior of any kind of machine.<br>
 Watch this:https://www.hackster.io/gunjan4699/temperature-sensor-using-lm35-sensor-and-bolt-wifi-module-af14f2#code
-<br>https://youtu.be/xk_hnI2proQ
+<br>https://youtu.be/xk_hnI2proQ<br>
+<h3>FLOW OF Automatic deployment of firmware to controller using Github</h3>
+Cloud function preferable IBM because it has built in Github Trigger:
+<img src="IOT_CI_CD_OTA.png" />
 
 <h2>Ref:</h2>
 https://www.youtube.com/watch?v=O-jIsMwccqg&list=PLPk6Wn69oEjLDYucRKTZX8UAwFEtzpcrZ
