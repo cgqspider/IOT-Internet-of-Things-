@@ -7,5 +7,6 @@ This is a project smart dustbin which can be tracked from any where with just on
 Dont forget to change the server URL in .INO file and run it.<br/>
 Everything will work fine.
 <br/>
-# Demo
+<h2>Demo</h2> 
+<br>
 https://www.youtube.com/watch?v=ybdlbM1EBHU
