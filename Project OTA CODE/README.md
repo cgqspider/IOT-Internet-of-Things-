@@ -4,7 +4,7 @@ This is a special project which can be used to deploy the code over the air usin
 # How to use?
 
 1. Inside server side php code folder php script is there which can be hosted to any server and we can send the bin files to the server. This bin file can be fetched by the Nodemcu or any OTA supported controller.
-<br />
+<br/>
 2.Inside OTA using https folder normal code of http is there which is used to fetch the code form the server and deploy itself inside the nodemcu or ota based controller.<br/>
 Note: Please note it requires restart after the code is being deployed.
 <br/>
