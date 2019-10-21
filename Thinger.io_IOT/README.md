@@ -14,5 +14,8 @@ Step 5: upload the code to the controller and enjoy your IOT device.
 
 <img src="thingersdashboard.png" />
 
+<br>
+Note: Sinric can be used with the ALEXA easy skill connectivity
+https://sinric.com/login?returnUrl=%2F
 
 Happy coding!
